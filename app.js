@@ -4,13 +4,13 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var mongoose = require('mongoose');
 var passport = require('passport');
-var User = require('./models/User')
 const bodyParser = require('body-parser');
+
+
 var app = express();
 
 
-// var indexRouter = require('./routes/index');
-// var usersRouter = require('./routes/users');
+
 var registerRouter = require('./routes/register');
 // var loginRouter = require('./routes/login');
 // require('./auth/auth');
@@ -38,7 +38,6 @@ mongoose.connect(DB_URL, {
         throw err
     })
 //---------------------------------------------
-// const secureRoute = require('./routes/login')
 require('./auth/auth');
 
 app.use(bodyParser.urlencoded({ extended: false }));

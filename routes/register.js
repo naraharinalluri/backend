@@ -35,23 +35,6 @@ router.post('/', jsonParser, async (req, res) => {
         else res.status(201).json(reslut)
     })
 
-    // passport.use('signup', new localStrategy({
-    //     usernameField: req.body.name,
-    //     email: req.body.email,
-    //     password: req.body.password,
-    //     mobile: req.body.mobile,
-    //     gender: req.body.gender,
-    //     dob: moment(req.body.dob).format('YYYY-MM-DD')
-    // }, async (name, email, password, mobile, gender, dob, done) => {
-    //     try {
-    //         //Save the information provided by the user to the the database
-    //         const user = await UserModel.create({ name, email, password, mobile, gender, dob });
-    //         //Send the user information to the next middleware
-    //         return done(null, user);
-    //     } catch (error) {
-    //         res.send(error);
-    //     }
-    // }));
 
 });
 
