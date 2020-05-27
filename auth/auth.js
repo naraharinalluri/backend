@@ -16,7 +16,7 @@ passport.use('login', new localStrategy({
 
         //Find the user associated with the email provided by the user
         const user = await User.findOne({ email });
-        if (!user) {
+        if (user === null) {
             //If the user isn't found in the database, return a message
             return done(null, false, { message: 'User not found' });
         }

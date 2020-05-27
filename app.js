@@ -4,23 +4,20 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var mongoose = require('mongoose');
 var passport = require('passport');
-const bodyParser = require('body-parser');
 
 
 var app = express();
 
 
+// Login and Register 
+require('./auth/auth');
+const routes = require('./routes/routes')
+const secureRoute = require('./routes/secure-routes');
+
 
 var registerRouter = require('./routes/register');
-// var loginRouter = require('./routes/login');
-// require('./auth/auth');
+//--------------------------------------------------------
 
-// app.use(bodyParser.urlencoded({ extended: false }));
-
-
-// require('./routes/auth')
-// const routes = require('./routes/routes')
-// app.use('/', routes);
 
 //DB Config
 const DB_URL = require('./config/keys').MongoURI;
@@ -38,12 +35,7 @@ mongoose.connect(DB_URL, {
         throw err
     })
 //---------------------------------------------
-require('./auth/auth');
 
-app.use(bodyParser.urlencoded({ extended: false }));
-const routes = require('./routes/routes')
-app.use('/', routes);
-const secureRoute = require('./routes/secure-routes');
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -51,13 +43,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// app.use('/', indexRouter);
-// app.use('/users', passport.authenticate('jwt', { session: false }), secureRoute);
-// app.use('/', routes);
-
-// app.use('/users', usersRouter);
-app.use('/register', registerRouter);
-app.use('/user', passport.authenticate('jwt', { session: false }), secureRoute);
-// app.use('/login', loginRouter);
+app.use('/', routes);
+app.use('/register', registerRouter);  // To register page 
+app.use('/user', passport.authenticate('jwt', { session: false }), secureRoute); //To Secure Route
 
 module.exports = app;
