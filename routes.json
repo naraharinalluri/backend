@@ -1,0 +1,222 @@
+[
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Chennai",
+        "endPoint": "bangalore",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "ORANGE BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Chennai",
+        "endPoint": "bangalore",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Chennai",
+        "endPoint": "Hyderabad",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "ORANGE BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Chennai",
+        "endPoint": "Hyderabad",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Chennai",
+        "endPoint": "Coimbatore",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "ORANGE BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Chennai",
+        "endPoint": "Coimbatore",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Chennai",
+        "endPoint": "Vishakapatnam",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Chennai",
+        "endPoint": "Salem",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Chennai",
+        "endPoint": "Tirunelveli",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Bangalore",
+        "endPoint": "Chennai",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Bangalore",
+        "endPoint": "Salem",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Bangalore",
+        "endPoint": "Hyderabad",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Bangalore",
+        "endPoint": "Coimbatore",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Bangalore",
+        "endPoint": "Vishakapatnam",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Bangalore",
+        "endPoint": "Kochi",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Kochi",
+        "endPoint": "Bangalore",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Kochi",
+        "endPoint": "Vishakapatnam",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Kochi",
+        "endPoint": "Chennai",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Kochi",
+        "endPoint": "Salem",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Kochi",
+        "endPoint": "Coimbatore",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Kochi",
+        "endPoint": "OOty",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    },
+    {
+        "CompanyName": "RED BUS",
+        "busType": "Multi AXLE AC",
+        "busNumber": "TN 27 110099",
+        "startPoint": "Kochi",
+        "endPoint": "",
+        "availableSeats": "20",
+        "pricePerSeat": "1000",
+        "date": "22/08/2020"
+    }
+]

@@ -9,8 +9,8 @@ const router = express.Router();
 router.post('/login', async (req, res, next) => {
     passport.authenticate('login', async (err, user, info) => {
         try {
-            if (err) {
-                const error = new Error('An Error occurred')
+            if (err || !user) {
+                const error = new Error('No User Found')
                 console.log(err)
                 return next(error);
             }
@@ -26,10 +26,6 @@ router.post('/login', async (req, res, next) => {
     })(req, res, next);
 });
 
-
-router.get('/signup', (req, res) => {
-    res.send("Signup Here")
-})
 
 router.get('/Login', (req, res) => {
     res.send("Login Here")

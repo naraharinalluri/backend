@@ -13,7 +13,9 @@ var app = express();
 require('./auth/auth');
 const routes = require('./routes/routes')
 const secureRoute = require('./routes/secure-routes');
+// ----------------------------------------------------
 
+const bookingRoute = require('./routes/travelBooking')
 
 var registerRouter = require('./routes/register');
 //--------------------------------------------------------
@@ -44,6 +46,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
+app.use('/booking', bookingRoute);
 app.use('/register', registerRouter);  // To register page 
 app.use('/user', passport.authenticate('jwt', { session: false }), secureRoute); //To Secure Route
 
