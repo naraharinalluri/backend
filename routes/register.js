@@ -30,9 +30,9 @@ router.post('/', jsonParser, async (req, res) => {
     }
     let newUser = new User(user)
     // console.log(newUser)
-    newUser.save((err, reslut) => {
+    newUser.save((err, result) => {
         if (err) console.log(err)
-        else res.status(201).json(reslut)
+        else res.status(201).json(result)
     })
 
 
