@@ -67,7 +67,12 @@ router.post('/busmodel', (req, res) => {
 //     })
 // })
 
-
+router.post('/seats', (req, res) => {
+    BusComb.find({ 'busNumber': req.body }, (err, result) => {
+        if (err) res.send(err)
+        else res.json(result)
+    })
+})
 
 
 
